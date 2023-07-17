@@ -522,10 +522,8 @@ footer{
       }
     
       .about-img img {
-        padding-top: 0;
         width: 100%;
       }
-    
       h2 {
         font-size: 30px;
         line-height: 40px;
@@ -555,6 +553,7 @@ footer{
     
       /* Ajustes para el navbar en dispositivos móviles */
       .menu {
+        display: flex;
         flex-direction: column;
         text-align: center;
         display:none;
