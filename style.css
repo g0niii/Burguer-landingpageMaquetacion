@@ -368,6 +368,11 @@ footer{
     font-size: 16px;
     margin: 0;
 }
+.ubicacion{
+    max-width: 100%;
+    display:flex;
+    justify-content: center;
+}
 
 /*Media queries*/
 
@@ -508,6 +513,7 @@ footer{
     .ubicacion{
         max-width: 100%;
         display:flex;
+        justify-content: center;
     }
 
     
