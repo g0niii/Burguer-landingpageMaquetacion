@@ -513,7 +513,7 @@ footer{
       }
     
       .header-txt h1 {
-        font-size: 40px;
+        font-size: 120px;
         line-height: 50px;
       }
     
@@ -569,14 +569,14 @@ footer{
         display: block;
         opacity: 1;
         text-align: center;
-        background-color: #3f3f3f; /* Agrega un fondo para el menú */
+        background-color: #3f3f3f; 
       }
     
       .menu .navbar ul {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin-top: 10px; /* Añade un margen superior para separar el menú del contenido */
+        margin-top: 10px;
       }
     
       .menu .navbar ul li {
@@ -586,7 +586,7 @@ footer{
     
       .menu .navbar ul li a {
         font-size: 18px;
-        color: #ffffff; /* Cambia el color de texto a blanco */
+        color: #ffffff; 
         font-weight: bold;
         padding: 10px;
       }
