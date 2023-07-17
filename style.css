@@ -147,6 +147,8 @@ p {
     width: 150px;
     top: 0;
     left: 0;
+    transform: rotate(90deg);
+    padding-top: 70px;
 }
 
 
@@ -385,6 +387,7 @@ footer{
         right:0;
         background-color: #3f3f3f;
         display: none;
+        opacity: 80%;
     }
     .menu .navbar ul li{
         width: 100%;
