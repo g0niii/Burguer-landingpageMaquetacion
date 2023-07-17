@@ -513,11 +513,6 @@ footer{
         flex-direction: column;
       }
     
-      .header-txt h1 {
-        font-size: 120px;
-        line-height: 50px;
-      }
-    
       .header-img img {
         width: 100%;
       }
