@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maquetandola</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -161,7 +162,7 @@
             <Form action="https://formsubmit.co/gonilovemor@gmail.com" method="POST">
                 <input class="campo" type="text" name="name" placeholder="Nombre">
                 <input class="campo" type="email" name="email" placeholder="Correo">
-                <input class="btn-2" type="submit" value="enviar">
+                <input class="btn-2" id="toastify" type="submit" value="enviar" >
 
                 <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
                 <input type="hidden" name="_captcha" value="false">
@@ -189,30 +190,11 @@
                         <li><a href="#">lorem</a></li>
                         <li><a href="#">lorem</a></li>
                         <li><a href="#">lorem</a></li>
-
-                    </ul>
-                </div>
-                <div class="link">
-                    <h3>lorem</h3>
-                    <ul>
-                        <li><a href="#">lorem</a></li>
-                        <li><a href="#">lorem</a></li>
-                        <li><a href="#">lorem</a></li>
-
-                    </ul>
-                </div>
-                <div class="link">
-                    <h3>lorem</h3>
-                    <ul>
-                        <li><a href="#">lorem</a></li>
-                        <li><a href="#">lorem</a></li>
-                        <li><a href="#">lorem</a></li>
-
                     </ul>
                 </div>
             </div>
             <div class="footer-copy">
-                <p>Lorem ipsum dolor sit amet consectetur </p>
+                <p>© 2023 g0nidev - Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
@@ -221,6 +203,7 @@
 
 </body>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 <script>AOS.init();</script>
-
+<script src="main.js"></script>
 </html>

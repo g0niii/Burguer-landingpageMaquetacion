@@ -135,7 +135,7 @@ p {
 
 .about {
     padding: 100px 0;
-    background-color: #efefef;
+    background-color: #d4d4d4;
 }
 
 .about-content {
@@ -348,7 +348,8 @@ footer{
 
 .link a{
     font-size: 18px;
-    display: block;
+    display: flex;
+    justify-content: center;
     color: #3f3f3f;
     margin-bottom: 20px;
 }
@@ -373,6 +374,7 @@ footer{
     display:flex;
     justify-content: center;
 }
+
 
 /*Media queries*/
 
