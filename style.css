@@ -501,4 +501,114 @@ footer{
         border-radius: 30px;
         text-align: center;
     }
+
+    
 }
+
+@media (max-width: 460px) {
+
+    .header-content {
+        padding: 30px 15px;
+        flex-direction: column;
+      }
+    
+      .header-txt h1 {
+        font-size: 40px;
+        line-height: 50px;
+      }
+    
+      .header-img img {
+        width: 100%;
+      }
+    
+      .about-content {
+        flex-direction: column;
+      }
+    
+      .about-img img {
+        padding-top: 0;
+        width: 100%;
+      }
+    
+      h2 {
+        font-size: 30px;
+        line-height: 40px;
+      }
+    
+      .information {
+        padding: 30px;
+      }
+    
+      .contact-table {
+        margin-top: -10px;
+        width: 100%;
+      }
+    
+      .form-content {
+        padding: 20px 15px;
+      }
+    
+      .footer-links {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      .footer-links .link {
+        margin-bottom: 15px;
+      }
+    
+      /* Ajustes para el navbar en dispositivos móviles */
+      .menu {
+        flex-direction: column;
+        text-align: center;
+        display:none;
+      }
+    
+      .menu .navbar {
+        position: static;
+        display: block;
+        opacity: 1;
+        text-align: center;
+        background-color: #3f3f3f; /* Agrega un fondo para el menú */
+      }
+    
+      .menu .navbar ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 10px; /* Añade un margen superior para separar el menú del contenido */
+      }
+    
+      .menu .navbar ul li {
+        margin: 5px;
+        width: 100%;
+      }
+    
+      .menu .navbar ul li a {
+        font-size: 18px;
+        color: #ffffff; /* Cambia el color de texto a blanco */
+        font-weight: bold;
+        padding: 10px;
+      }
+    
+      .socials-1 {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+      }
+    
+      .information-content {
+        padding: 30px 15px;
+      }
+    
+      .in1,
+      .in2,
+      .in3 {
+        display: none;
+      }
+    
+      .contact {
+        padding: 20px;
+      }
+    
+  }
