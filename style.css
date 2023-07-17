@@ -91,6 +91,7 @@ p {
 .header-txt {
     width: 50%;
     padding-right: 100px;
+    text-align: center;
 }
 
 .header-txt h1 {
@@ -491,5 +492,10 @@ footer{
     }
     .link-img{
         margin-bottom: 15px;
+    }
+
+    .menu .navbar{
+        border-radius: 30px;
+        text-align: center;
     }
 }
