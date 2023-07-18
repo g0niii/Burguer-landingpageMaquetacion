@@ -373,6 +373,7 @@ footer{
     max-width: 100%;
     display:flex;
     justify-content: center;
+    box-shadow: 0 0 50px #e06927;
 }
 
 
